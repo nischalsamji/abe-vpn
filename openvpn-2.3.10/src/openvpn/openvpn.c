@@ -342,6 +342,7 @@ wmain (int argc, wchar_t *wargv[]) {
 #else
 int
 main (int argc, char *argv[]) {
+	printf("Adding a Dummy Message - Nischal Samji");
 	return openvpn_main(argc, argv);
 }
 #endif
